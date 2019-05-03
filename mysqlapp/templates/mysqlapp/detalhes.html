@@ -1,1 +1,15 @@
-<li><a href="{% url 'mysqlapp:detalhes' questao.id %}">{{ questao.questao_texto }}</a></li>
+<h1>{{ questao.questao_texto }}</h1>
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{%endif %}
+<form action="{% url 'mysqlapp:voto' questao.id %}" method="post">
+{% csrf_token %}
+{% for opcao in questao.opcao_set.all %}
+<input type="radio" name="opcao" id="opcao{{ forloop.counter }}"
+value="{{ opcao.id }}">
+<label for="opcao{{ forloop.counter }}">{{ opcao.opcao_texto}}</label><br>
+{% endfor %}
+<label>O seu nome: </label><input type="text"
+name="nome" required><br>
+<label>O seu email: </label><input type="text"
+name="email" required><br>
+<input type="submit" value="Voto">
+</form>

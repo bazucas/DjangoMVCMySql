@@ -1,5 +1,7 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
+from django.urls import reverse
+
 from .models import Questao, Participante, Opcao
 
 
@@ -13,12 +15,23 @@ def detalhes(request, questao_id):
 
 
 def resultados(request, questao_id):
-    response = "Está a ver os resultados da questão %s."
-    return HttpResponse(response % questao_id)
+    questao = get_object_or_404(Questao, pk=questao_id)
+    return render(request, 'mysqlapp/resultados.html', {'questao': questao})
 
 
 def voto(request, questao_id):
-    return HttpResponse("Está a votar na questão %s." % questao_id)
+    questao = get_object_or_404(Questao, pk=questao_id)
+    try:
+        opcao_escolhida = questao.opcao_set.get(pk=request.POST['opcao'])
+    except (KeyError, Opcao.DoesNotExist):
+        return render(request, 'mysqlapp/detalhes.html', {'questao': questao,'error_message': "Não escolheu uma opção.",})
+    else:
+        participante = Participante(nome=request.POST['nome'], email=request.POST['email'])
+        participante.opcao = opcao_escolhida
+        participante.save()
+        opcao_escolhida.votos += 1
+        opcao_escolhida.save()
+        return HttpResponseRedirect(reverse('mysqlapp:resultados', args=(questao.id,)))
 
 
 def aluno(request, participante_id):
@@ -44,18 +57,8 @@ def ultimas5(request):
 
 
 def participantes5(request):
-    # a = Participante(id=1, nome='Luis Inacio', email='luis@luis.pt', opcao_id=1)
-    # a.save()
-    # b = Participante(id=2, nome='Miguel Silva', email='miguel@miguel.pt', opcao_id=2)
-    # b.save()
-    # c = Participante(id=3, nome='Jose Carvalho', email='jose@jose.pt', opcao_id=3)
-    # c.save()
-    # d = Participante(id=4, nome='Alex Torres', email='alex@alex.pt', opcao_id=4)
-    # d.save()
-    # e = Participante(id=5, nome='Ruben Santos', email='ruben@ruben.pt', opcao_id=5)
-    # e.save()
 
-    lista_participantes = Participante.objects.all()
+    lista_participantes = Participante.objects.order_by('-id')[:5]
     lista_combinada = []
 
     for participante in lista_participantes:
