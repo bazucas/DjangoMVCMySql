@@ -1,3 +1,5 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'mysqlapp/style.css' %}">
 {% if lista_ultimas_questoes %}
 <ul>
 {% for questao in lista_ultimas_questoes %}

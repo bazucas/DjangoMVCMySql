@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faf730a0-1dea-46ce-96dd-0b8c2ae12c8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/resultados.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SGBD_G4_21410_21386/templates/admin/base_site.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysqlapp/static/mysqlapp/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/detalhes.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/detalhes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlapp/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/ultimas5.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/ultimas5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysqlapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlapp/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysqlapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysqlapp/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,53 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlapp/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysqlapp/views.py">
+        <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="523">
-              <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#36#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="259">
+              <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/resultados.html">
+        <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/templates/admin/base_site.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="78" lean-forward="true" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/participantes5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/detalhes.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="110">
+              <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -79,6 +49,8 @@
       <find>deta</find>
       <find>participante_n</find>
       <find>participante_nome</find>
+      <find>QuestaoAdmin</find>
+      <find>TEMPLATES</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -88,17 +60,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/mysqlapp/urls.py" />
-        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/urls.py" />
         <option value="$PROJECT_DIR$/mysqlapp/__init__.py" />
-        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py" />
         <option value="$PROJECT_DIR$/mysqlapp/models.py" />
-        <option value="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/ultimas5.html" />
-        <option value="$PROJECT_DIR$/mysqlapp/urls.py" />
         <option value="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/participantes5.html" />
-        <option value="$PROJECT_DIR$/mysqlapp/admin.py" />
         <option value="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/resultados.html" />
         <option value="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/detalhes.html" />
         <option value="$PROJECT_DIR$/mysqlapp/views.py" />
+        <option value="$PROJECT_DIR$/mysqlapp/urls.py" />
+        <option value="$PROJECT_DIR$/mysqlapp/templates/mysqlapp/ultimas5.html" />
+        <option value="$PROJECT_DIR$/mysqlapp/static/mysqlapp/style.css" />
+        <option value="$PROJECT_DIR$/mysqlapp/admin.py" />
+        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/templates/base_site.html" />
+        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/admin/base_site.html" />
+        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/urls.py" />
+        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/templates/admin/base_site.html" />
+        <option value="$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py" />
       </list>
     </option>
   </component>
@@ -131,13 +107,20 @@
             <path>
               <item name="SGBD_G4_21410_21386" type="b2602c69:ProjectViewProjectNode" />
               <item name="SGBD_G4_21410_21386" type="462c0819:PsiDirectoryNode" />
-              <item name="mysqlapp" type="462c0819:PsiDirectoryNode" />
+              <item name="SGBD_G4_21410_21386" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SGBD_G4_21410_21386" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SGBD_G4_21410_21386" type="462c0819:PsiDirectoryNode" />
+              <item name="SGBD_G4_21410_21386" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SGBD_G4_21410_21386" type="b2602c69:ProjectViewProjectNode" />
               <item name="SGBD_G4_21410_21386" type="462c0819:PsiDirectoryNode" />
               <item name="SGBD_G4_21410_21386" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -149,14 +132,21 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SGBD_G4_21410_21386/static" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386\SGBD_G4_21410_21386\static" />
+      <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386\SGBD_G4_21410_21386\templates" />
+      <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386\SGBD_G4_21410_21386\templates\admin" />
       <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386" />
       <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386\SGBD_G4_21410_21386" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386\SGBD_G4_21410_21386" />
+      <recent name="C:\Users\Luis\Desktop\DjangoProject\SGBD_G4_21410_21386" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,12 +220,20 @@
       <option name="presentableId" value="Default" />
       <updated>1556890118429</updated>
       <workItem from="1556890119875" duration="1986000" />
-      <workItem from="1556893762163" duration="17981000" />
+      <workItem from="1556893762163" duration="22833000" />
     </task>
+    <task id="LOCAL-00001" summary="Últimos participantes e respetivas votações.">
+      <created>1556918698485</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1556918698485</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19967000" />
+    <option name="totallyTimeSpent" value="24819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,62 +275,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Últimos participantes e respetivas votações." />
+    <option name="LAST_COMMIT_MESSAGE" value="Últimos participantes e respetivas votações." />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mysqlapp/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="35" column="36" lean-forward="true" selection-start-line="35" selection-start-column="36" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mysqlapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/ultimas5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlapp/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/resultados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="78" lean-forward="true" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlapp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="59" lean-forward="true" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -343,6 +297,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/resultados.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="78" lean-forward="true" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlapp/static/mysqlapp/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlapp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/ultimas5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mysqlapp/templates/mysqlapp/detalhes.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -350,13 +345,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysqlapp/views.py">
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/templates/base_site.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="63" column="44" lean-forward="true" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+        <state relative-caret-position="110">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/static/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/templates/admin/base_site.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="36" lean-forward="true" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysqlapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="e#643#675#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SGBD_G4_21410_21386/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="57" column="54" lean-forward="true" selection-start-line="57" selection-start-column="54" selection-end-line="57" selection-end-column="54" />
         </state>
       </provider>
     </entry>

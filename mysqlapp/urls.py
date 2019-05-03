@@ -2,10 +2,11 @@ from django.urls import path
 from . import views
 
 app_name = 'mysqlapp'
+
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('<int:questao_id>/', views.detalhes, name='detalhes'),
-    path('<int:questao_id>/resultados/', views.resultados, name='resultados'),
+    path('', views.IndexView.as_view(), name='index'),
+    path('<int:pk>/', views.DetalhesView.as_view(), name='detalhes'),
+    path('<int:pk>/resultados/', views.ResultadosView.as_view(), name='resultados'),
     path('<int:questao_id>/voto/', views.voto, name='voto'),
     path('aluno/1234/', views.aluno1234, name='aluno1234'),
     path('aluno/2345/', views.aluno2345, name='aluno2345'),

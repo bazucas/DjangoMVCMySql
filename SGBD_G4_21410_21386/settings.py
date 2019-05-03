@@ -30,15 +30,6 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
-# INSTALLED_APPS = [
-#     'django.contrib.admin',
-#     'django.contrib.auth',
-#     'django.contrib.contenttypes',
-#     'django.contrib.sessions',
-#     'django.contrib.messages',
-#     'django.contrib.staticfiles',
-# ]
-
 INSTALLED_APPS = [
     'mysqlapp.apps.MysqlappConfig',
     'django.contrib.admin',
@@ -64,7 +55,7 @@ ROOT_URLCONF = 'SGBD_G4_21410_21386.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -82,16 +73,6 @@ WSGI_APPLICATION = 'SGBD_G4_21410_21386.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
-
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'SGBD_G4_21410_21386',
-#         'USER': 'django_db_user',
-#         'PASSWORD': 'django_db_pass',
-#         'HOST': 'localhost',
-#     }
-# }
 
 DATABASES = {
     'default': {
