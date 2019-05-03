@@ -1,0 +1,9 @@
+{% if lista_combinada %}
+<ul>
+{% for lista in lista_combinada %}
+<li style="list-style: none">{{ lista }}</li>
+{% endfor %}
+</ul>
+{% else %}
+<p>Não existem participantes.</p>
+{% endif %}

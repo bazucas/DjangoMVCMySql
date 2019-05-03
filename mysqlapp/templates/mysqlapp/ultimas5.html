@@ -1,0 +1,9 @@
+{% if lista_ultimas_questoes %}
+<ul>
+{% for questao in lista_ultimas_questoes %}
+<li><a href="/mysqlapp/{{ questao.id }}/">{{ questao.questao_texto }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p>Não existem questões.</p>
+{% endif %}
